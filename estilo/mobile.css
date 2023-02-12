@@ -67,6 +67,7 @@ p{
 }
 .modo-preparo-imagem{
     text-align: center;
+    height: 350px;
 }
 .modo-preparo-conteudo-escrito{
     display: flex;
@@ -94,4 +95,65 @@ p{
     background-color: #eeededc4;
     width: 312px;
     border-radius: 8px;
+}
+.mais-populares-titulo-secundario{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+.mais-populares-primeiro-paragrafo{
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.mais-populares-segundo-paragrafo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 24px;
+    margin-bottom: 64px;
+}
+.comentarios-titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.comentario-bloco{
+    background-color: #eeededc4;
+    width: 312px;
+    border-radius: 8px;
+    padding: 8px;
+    
+}
+.comentarios-nome{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    
+}
+.localizacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 32px;
+    margin-bottom: 64px;
+
+}
+.localizacao-titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.imagem-localizacao{
+    width: 312px;
 }

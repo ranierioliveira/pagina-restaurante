@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px){
+    h1{
+        font: 18px;
+    }
+    p{
+       text-align: justify; 
+    }
+    nav{
+        display: block;
+    }
+    header > span.material-symbols-outlined{
+        display: none;
+    }   
+    nav a{
+        color: black;
+    } 
+    nav a:hover{
+        text-decoration: underline;
+    }
+    nav button{
+        background-color: aliceblue;
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 4px;
+        width: 104px;
+    }
+    header{
+        display: flex;
+        
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    #menu{
+        width: 800px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .principal-imagem{
+        display: block;
+        width: 400px;
+        height: 534px;
+    }
+    .principal{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+
+        margin: 64px;
+        
+    }
+    .principal-conteudo-escrito{
+        width: 400px;
+    }
+    .modo-preparo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+
+        margin: 64px;
+    }
+    .mais-populares-titulo{
+        text-align: center;
+        margin-bottom: 64px;
+    }
+    .mais-populares{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin: 24px;
+    }
+    .mais-populares-refeicao{
+        width: 250px;
+    }
+    .mais-populares-imagens{
+        width: 200px;
+        margin: auto;
+        display: block;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width:992px){
+    body{
+        background-color: blue;
+    }
+}
